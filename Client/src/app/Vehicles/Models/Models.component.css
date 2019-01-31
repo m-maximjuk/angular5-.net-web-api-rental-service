@@ -1,0 +1,61 @@
+.content {
+    padding-top: 20px;
+}
+a:hover {
+    cursor: pointer;
+}
+.dropdown-primary {
+    background: rgb(51, 122, 183);
+    color: white;
+}
+.dropdown-primary:hover {
+    background: rgb(40, 96, 144);
+}
+.dropdown-success {
+    background: #5cb85c;
+    color: white;
+}
+.dropdown-success:hover {
+    background: rgb(68, 157, 68);
+}
+
+.dropdown-toggle {
+    color: white;
+}
+.dropdown-toggle:hover {
+    text-decoration: none;
+    color: white;
+}
+.navbar a {
+    font-weight: bold; 
+}
+.tablecenter {
+    border-radius: 2%;
+    width: 98%;
+}
+.well {
+    background: rgb(248, 248, 248);
+    border: 1px solid #5cb85c;
+}
+.pagination {
+    margin: 0px !important;
+    margin-top: 0%;
+}
+.card-img-top {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 120px;
+}
+.fa-star {
+    font-size: 15px;
+}
+.checked {
+    color: orange;
+}
+.float-right {
+    float: right;
+}
+.fa-shekel {
+    font-size: 12px;
+}

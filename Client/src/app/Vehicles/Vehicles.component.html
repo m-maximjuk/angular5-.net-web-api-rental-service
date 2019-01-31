@@ -1,0 +1,26 @@
+<div class="container animated fadeIn">
+    <div class="row">
+        <div class="col-md-2 animated bounceInLeft"><br>
+            <h3 class="text-center jumbo"><i class="fa fa-envira" style="color: #5cb85c;"></i> Vehicles</h3><br>
+            <div class="list-group">
+                <h5 class="list-group-item active text-center"><strong>Layouts</strong></h5>
+                <a class="list-group-item"><i class="fa fa-th-list"></i> Details</a>
+                <a class="list-group-item"><i class="fa fa-th"></i> Gallery</a>
+            </div>
+            <div class="list-group text-center" *ngFor="let brand of this.BrandList">
+                <p class="list-group-item"><strong>{{brand.Title}}</strong></p>
+                <a class="list-group-item"><img src="{{brand.Picture}}" alt=""></a>
+            </div>
+        </div>
+        <div class="content col-md-10">
+            <div *ngIf="this.Service.isLoaded;then Content else Loading"></div>
+        </div>
+    </div>
+</div>
+
+<ng-template #Loading>
+    <div class="content animated bounceInDown" align="center"><img src="{{this.Service.loading}}"></div>
+</ng-template>
+<ng-template #Content>
+    <div class="animated bounceInDown"><app-Models></app-Models></div>
+</ng-template>

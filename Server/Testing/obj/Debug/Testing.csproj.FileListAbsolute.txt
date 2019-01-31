@@ -1,0 +1,9 @@
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Testing\bin\Debug\Testing.exe.config
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Testing\bin\Debug\Testing.exe
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Testing\bin\Debug\Testing.pdb
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Testing\obj\Debug\Testing.csproj.CoreCompileInputs.cache
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Testing\obj\Debug\Testing.exe
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Testing\obj\Debug\Testing.pdb
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Testing\obj\Debug\Testing.csprojResolveAssemblyReference.cache
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Testing\bin\Debug\Library.dll
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Testing\bin\Debug\Library.pdb

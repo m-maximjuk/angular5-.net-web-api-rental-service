@@ -1,0 +1,90 @@
+<nav class="container navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="fa fa-envira" style="color: #5cb85c;"></i> Rental Client</a>
+    </div>
+
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a routerLink="Home" routerLinkActive="active">Home</a></li>
+        <li><a routerLink="Vehicles" routerLinkActive="active">Vehicles</a></li>
+        <li><a routerLink="About" routerLinkActive="active">About Us</a></li>
+        <li><a routerLink="Branches" routerLinkActive="active">Branches</a></li>
+        <li><a routerLink="Contact" routerLinkActive="active">Contact</a></li>
+      </ul>
+
+      <ul *ngIf="!this.AccountCheck()" class="nav navbar-nav navbar-right">
+        <li><a data-toggle="modal" data-target="#registerModal"><i class="fa fa-user-plus"></i> Create An Account</a></li>
+        <li><button type="button" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#loginModal"><strong><i class="fa fa-sign-in"></i> Login</strong></button></li>
+      </ul>
+      <ul *ngIf="this.AccountCheck()" class="nav navbar-nav navbar-right">
+        <li><a (click)="this.Logout()" style="font-weight: normal;"><i class="fa fa-sign-out"></i> Logout</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome {{this.account.Username}} <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a routerLink="/Dashboard"><i class="fa fa-user-circle-o"></i> Dashboard</a></li>
+            <li><a href="#"><i class="fa fa-gears"></i> Settings</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a (click)="this.Logout()"><i class="fa fa-sign-out"></i> Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!--/.navbar-collapse -->
+  </div>
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <app-Login></app-Login>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button routerLink="/Vehicles" type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <app-Register></app-Register>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button routerLink="/Vehicles" type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        ... Price Calculator
+      </div>
+      <div class="modal-footer">
+        <button routerLink="/Vehicles" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

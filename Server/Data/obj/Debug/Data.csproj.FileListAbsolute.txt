@@ -1,0 +1,30 @@
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\bin\Debug\Data.dll.config
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\bin\Debug\Data.dll
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\bin\Debug\Data.pdb
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\bin\Debug\EntityFramework.dll
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\bin\Debug\Library.dll
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\bin\Debug\Library.pdb
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\bin\Debug\EntityFramework.xml
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\obj\Debug\Data.dll
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\obj\Debug\Data.pdb
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\obj\Debug\Data.Migrations.Initial.resources
+C:\Users\Yoni\Documents\Code\Projects\Project\Server\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\bin\Debug\Data.dll.config
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\bin\Debug\Data.dll
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\bin\Debug\Data.pdb
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\bin\Debug\EntityFramework.dll
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\bin\Debug\Library.dll
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\bin\Debug\Library.pdb
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\bin\Debug\EntityFramework.xml
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\obj\Debug\Data.Migrations.Initial.resources
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\obj\Debug\Data.dll
+C:\dev\.Net MVC WebAPI\Rental API\Server\Data\obj\Debug\Data.pdb

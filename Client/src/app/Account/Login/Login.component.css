@@ -1,0 +1,35 @@
+.form-signin {
+    width: 80%;
+    max-width: 420px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.profile-img
+{
+    width: 125px;
+    height: 125px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.row {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.col-lg-4 {
+    width: 50%;
+}
+i {
+  font-size: 50px;
+  color: #1564b2;
+}
+i:hover {
+  color: #609cd8;
+}
+a:hover {
+    text-decoration-line: none;
+    cursor: pointer;
+}

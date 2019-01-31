@@ -1,0 +1,28 @@
+nav {
+    background: #1976d2;
+    border-style: none;
+    width: 100%;
+}
+nav a {
+    color: #ffffff;
+    font-weight: bold;
+}
+nav a:hover {
+    color: orange;
+}
+a.active {
+    background: #1564b2;
+}
+nav .dropdown-menu a {
+    font-weight: normal;
+    color: #000000;
+}
+nav .dropdown-menu a:active {
+    background: none;
+}
+button:hover {
+    border-color: white;
+}
+a {
+    cursor: pointer;
+}

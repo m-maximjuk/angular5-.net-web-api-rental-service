@@ -1,0 +1,52 @@
+<div *ngIf="!this.account.IsActive;then ngLogin else ngLoggedIn"></div>
+<ng-template #ngLogin>
+  <div class="content container form-signin animated fadeIn">
+    <form #loginForm="ngForm">
+      <img class="profile-img animated rubberBand" src="https://sunriseprowebsites.com/backstage/app/views/client/lutfi-cloud/lutfi-file/images/avatar.png">
+      <h3 class="text-center">Account Login</h3>
+      <label for="Username">Username</label>
+      <input type="text" name="Username" [(ngModel)]="this.account.Username" class="form-control" placeholder="Username" required autofocus><br>
+      <label for="Password">Password</label>
+      <input type="password" name="Password" [(ngModel)]="this.account.Password" class="form-control" placeholder="Password" required>
+      <br>
+      <button [disabled]="!loginForm.valid" class="btn btn-lg btn-primary btn-block" type="submit" (click)="this.Login()">Sign in</button>
+    </form><br>
+    <div class="text-center">
+      <h4>Don't Have An Account?</h4>
+      <a data-toggle="modal" data-target="#registerModal" data-dismiss="modal">Create One Now!</a>
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #ngLoggedIn>
+  <div *ngIf="this.account.IsActive" class="container form-signin text-center">
+    <img class="profile-img animated rubberBand" src="https://sunriseprowebsites.com/backstage/app/views/client/lutfi-cloud/lutfi-file/images/avatar.png">
+    <h2>Welcome {{this.account.Username}}!</h2><hr>
+
+    <div class="row">
+
+      <div class="col-lg-4">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+              <a routerLink="Dashboard" data-dismiss="modal"><i class="fa fa-dashboard animated rubberBand"></i></a>
+          </div>
+          <div class="panel-body">
+            <a routerLink="Dashboard" data-dismiss="modal"><h3 class="panel-title">Go To Dashboard</h3></a>
+          </div>
+        </div>      
+      </div>
+
+      <div class="col-lg-4">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+              <a routerLink="Home" data-dismiss="modal"><i class="fa fa-home animated rubberBand"></i></a>
+          </div>
+          <div class="panel-body">
+            <a routerLink="Home" data-dismiss="modal"><h3 class="panel-title">Home Page</h3></a>
+          </div>
+        </div>      
+      </div>
+
+    </div>
+  </div>
+</ng-template>
